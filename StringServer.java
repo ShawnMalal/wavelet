@@ -9,7 +9,6 @@ class Handler implements URLHandler {
             return String.format("Shawn, " + "CSE, " + "15L");
     }
     else if (url.getPath().equals("/increment")) {
-      
         return String.format("Number incremented!");
     } else {
         System.out.println("Path: " + url.getPath());
@@ -20,7 +19,7 @@ class Handler implements URLHandler {
     }
 }
 
-class SearchEngine {
+class StringServer {
         
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
