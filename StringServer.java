@@ -6,6 +6,9 @@ class Handler implements URLHandler {
     
     String response = "";
 
+    public Handler(String string) {
+    }
+
     public String handleRequest(URI url) {
 
         if (url.getPath().equals("/")) {
